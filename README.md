@@ -1,4 +1,4 @@
-🚀 Project Overview
+## 🚀 Project Overview
 
 This is a Python-based Automation System that organizes files, generates reports, and integrates with Gmail API to automate email-based workflows.
 
@@ -8,8 +8,8 @@ The project is designed to reduce manual effort by:
     3.Integrating with Gmail API for automated email operations
 This project demonstrates real-world backend automation and API integration skills.
 
-🎯 Core Features:
-📂 File Automation
+## 🎯 Core Features:
+## 📂 File Automation
 1.  Automatically sorts files into folders:
     1. Documents
     2. Downloads 
@@ -17,23 +17,23 @@ This project demonstrates real-world backend automation and API integration skil
 2.  Cleans and organizes directories
 3.  Handles duplicate files safely
 
-📊 Report Generation
+## 📊 Report Generation
 1. Generates structured reports
 2. Saves reports inside /reports directory
 3. Tracks automation activity
 
-📧 Gmail API Integration
+## 📧 Gmail API Integration
 1.  Secure Gmail authentication using OAuth
 2.  Token-based authentication system
 3.  Email service integration via Gmail API
 4.  Automated email operations
 
-🔐 Security
+## 🔐 Security
 1.  Environment variables using .env
 2.  OAuth credentials via client_secret.json
 3.  Token storage (token_gmail_v1.pickle)
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 1.  Language: Python 3.x
 2.  Libraries Used:
     1.  os
@@ -45,7 +45,7 @@ This project demonstrates real-world backend automation and API integration skil
     7.  google-api-python-client
     8.  pickle
 
-📂Project Structure:
+## 📂Project Structure:
 
 python-automation-system/
 │
@@ -68,14 +68,14 @@ python-automation-system/
 ├── requirements.txt
 └── README.md
 
-⚙️ How It Works
+## ⚙️ How It Works
 1. main.py acts as the entry point.
 2. file_automation.py organizes files.
 3. report_generator.py generates automation reports.
 4. Gmail services inside /services handle authentication and email API communication.
 5. Reports are saved in /reports.
 
-💡 What This Project Demonstrates
+## 💡 What This Project Demonstrates
 1. Backend automation logic
 2. Gmail API integration
 3. Secure authentication handling
@@ -84,7 +84,3 @@ python-automation-system/
 6. Real-world workflow automation
 7. Error handling & logging
 
-👨‍💻 Author
-Vivek Vaghela
-Python Developer | Backend & Automation Enthusiast
-Skilled in Django, Flask, REST APIs, Automation, API Integration & Data Handling
