@@ -1,48 +1,49 @@
 🚀 Project Overview
 
 This is a Python-based Automation System that organizes files, generates reports, and integrates with Gmail API to automate email-based workflows.
-• The project is designed to reduce manual effort by:
-    • Automatically organizing files (Documents, Downloads, Images)
-    • Generating structured reports
-    •Integrating with Gmail API for automated email operations
+
+The project is designed to reduce manual effort by:
+    1. Automatically organizing files (Documents, Downloads, Images)
+    2. Generating structured reports
+    3.Integrating with Gmail API for automated email operations
 This project demonstrates real-world backend automation and API integration skills.
 
 🎯 Core Features:
 📂 File Automation
-• Automatically sorts files into folders:
-    • Documents
-    • Downloads 
-    • Images
-• Cleans and organizes directories
-• Handles duplicate files safely
+1.  Automatically sorts files into folders:
+    1. Documents
+    2. Downloads 
+    3. Images
+2.  Cleans and organizes directories
+3.  Handles duplicate files safely
 
 📊 Report Generation
-• Generates structured reports
-• Saves reports inside /reports directory
-• Tracks automation activity
+1. Generates structured reports
+2. Saves reports inside /reports directory
+3. Tracks automation activity
 
 📧 Gmail API Integration
-• Secure Gmail authentication using OAuth
-• Token-based authentication system
-• Email service integration via Gmail API
-• Automated email operations
+1.  Secure Gmail authentication using OAuth
+2.  Token-based authentication system
+3.  Email service integration via Gmail API
+4.  Automated email operations
 
 🔐 Security
-• Environment variables using .env
-• OAuth credentials via client_secret.json
-• Token storage (token_gmail_v1.pickle)
+1.  Environment variables using .env
+2.  OAuth credentials via client_secret.json
+3.  Token storage (token_gmail_v1.pickle)
 
 🛠️ Tech Stack
-• Language: Python 3.x
-• Libraries Used:
-    • os
-    • shutil
-    • logging
-    • datetime
-    • dotenv
-    • google-auth
-    • google-api-python-client
-    • pickle
+1.  Language: Python 3.x
+2.  Libraries Used:
+    1.  os
+    2.  shutil
+    3.  logging
+    4.  datetime
+    5.  dotenv
+    6.  google-auth
+    7.  google-api-python-client
+    8.  pickle
 
 📂Project Structure:
 
@@ -75,13 +76,13 @@ python-automation-system/
 5. Reports are saved in /reports.
 
 💡 What This Project Demonstrates
-• Backend automation logic
-• Gmail API integration
-• Secure authentication handling
-• Modular project architecture
-• Clean folder structure
-• Real-world workflow automation
-• Error handling & logging
+1. Backend automation logic
+2. Gmail API integration
+3. Secure authentication handling
+4. Modular project architecture
+5. Clean folder structure
+6. Real-world workflow automation
+7. Error handling & logging
 
 👨‍💻 Author
 Vivek Vaghela
